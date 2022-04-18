@@ -6,6 +6,19 @@ var result = document.getElementById("result");
 let win = document.querySelector("#win");
 let draw = document.querySelector("#draw");
 let lose = document.querySelector("#lose");
+let restart = document.querySelector("#restart");
+
+restart.addEventListener("click", restartAll);
+
+function restartAll() {
+    win.textContent = 0;
+    draw.textContent = 0;
+    lose.textContent = 0;
+    winScore = 0;
+    drawScore = 0;
+    loseScore = 0;
+
+}
 
 let winScore = 0;
 let drawScore = 0;
