@@ -1,0 +1,70 @@
+.all {
+    padding: 15px;
+    background-color: rgb(193, 224, 255);
+    margin: 10px auto;
+    cursor: pointer;
+    width: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.result {
+    padding: 15px;
+    background-color: rgb(103, 194, 255);
+    margin: 30px auto;
+    cursor: pointer;
+    width: 60%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.hello {
+    padding: 15px;
+    background-color: rgb(151, 191, 207);
+    text-align: center;
+    margin: 50px auto;
+    width: 300px;
+    font-size: 50px;
+}
+
+.lets {
+    padding: 15px;
+    background-color: rgb(146, 221, 255);
+    text-align: center;
+    margin: 20px auto;
+    width: 250px;
+    height: 30px;
+    font-size: 30px;
+}
+
+.rock {
+    padding: 15px;
+    background-color: rgb(167, 249, 255);
+    text-align: center;
+    margin: 50px auto;
+    width: auto;
+    font-size: 25px;
+    margin: 15px auto;
+}
+
+#score {
+    justify-content: center;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.win {
+    padding: 12px;
+    background-color: rgb(196, 247, 196);
+}
+
+.draw {
+    padding: 12px;
+    background-color: rgb(209, 209, 209);
+}
+
+.lose {
+    background-color: rgb(248, 109, 116);
+    padding: 12px;
+}
