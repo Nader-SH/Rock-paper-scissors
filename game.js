@@ -14,9 +14,11 @@ function restartAll() {
     win.textContent = 0;
     draw.textContent = 0;
     lose.textContent = 0;
+    result.innerText = "result"
     winScore = 0;
     drawScore = 0;
     loseScore = 0;
+
 
 }
 
